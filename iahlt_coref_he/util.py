@@ -1,3 +1,4 @@
+# Copied from https://github.com/shon-otmazgin/lingmess-coref
 import os
 import logging
 import json

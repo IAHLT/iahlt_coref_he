@@ -1,7 +1,8 @@
+import sys
+
 from ufal.udpipe import Model, Pipeline, ProcessingError
 from conllu import parse
 
-import sys
 
 
 NO_PARSER_PIPELINE = {'tagger': Pipeline.DEFAULT, 'parser': Pipeline.NONE}
@@ -36,10 +37,3 @@ class Tokenizer:
             sys.stderr.write("\n")
             sys.exit(1)
         return parse(processed)
-    
-
-
-if __name__ == '__main__':
-    t = Tokenizer('models/model_3_6_24_he.udpipe')
-    t.tokenize('שלום כולם. מה נשמע איתכם? הכל בסדר?')
-    pass
