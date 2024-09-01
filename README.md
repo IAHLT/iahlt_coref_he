@@ -1,10 +1,9 @@
 ## Install
-1. Install https://git-lfs.com/
-2. Clone the repo
-3. pip install .
-4. git lfs pull
+1. Clone the repo.
+2. pip install it.
+3. Download the models: https://drive.google.com/file/d/1jNQ3LfjQ0dZp1B3N54KLFy0Qw9-DN-t3/view?usp=drive_link
 
-## Example
+## Example of usage
 ```
 import os
 from iahlt_coref_he.coref_pipeline import CorefPipeline
