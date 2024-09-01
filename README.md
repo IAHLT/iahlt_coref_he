@@ -2,7 +2,7 @@
 1. Clone the repo.
 2. pip install it.
 3. Download the models: https://drive.google.com/file/d/1jNQ3LfjQ0dZp1B3N54KLFy0Qw9-DN-t3/view?usp=drive_link
-4. Extract the directory (denoted as $PATH_TO_MODELS_DIR)
+4. Extract the directory (denoted as $PATH_TO_MODELS_DIR).
 
 ## Example of usage
 ```
