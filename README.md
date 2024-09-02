@@ -1,10 +1,24 @@
+# A Model for Coreference in Hebrew
+
+
+האיגוד הישראלי לטכנולוגיות שפת אנוש
+الرابطة الإسرائيلية لتكنولوجيا اللغة البشرية
+
+The Israeli Association of Human Language Technologies
+https://www.iahlt.org
+
+
+This project includes a model trained for the coreference task in Hebrew, using the dataset available at [this repository](https://github.com/IAHLT/coref).
+
 ## Install
+To install and use the model, please follow the steps described below:
+
 1. Clone the repo.
 2. pip install it.
 3. Download the models: https://drive.google.com/file/d/1jNQ3LfjQ0dZp1B3N54KLFy0Qw9-DN-t3/view?usp=drive_link
 4. Extract the directory (denoted as $PATH_TO_MODELS_DIR).
 
-## Example of usage
+## Example
 ```
 import os
 from iahlt_coref_he.coref_pipeline import CorefPipeline
